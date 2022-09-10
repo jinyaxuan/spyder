@@ -12,6 +12,7 @@ class CarsafePipeline:
     
     # 爬取网站
     def process_item(self, item, spider):
+        print(spider)
         return item
     
 
